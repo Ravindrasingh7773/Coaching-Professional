@@ -1,0 +1,43 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.hero-section {
+  padding: 120px 24px;
+}
+.hero-section .hs-container {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.hero-section .hs-container .hs-content {
+  text-align: center;
+}
+.hero-section .hs-container .hs-content span {
+  line-height: 1.4em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0.18em;
+  font-size: 17px;
+}
+
+.hero-section .hs-container .hs-content h1 {
+  line-height: 1em;
+  text-align: center;
+  font-size: 110px;
+}
